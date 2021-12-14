@@ -1,0 +1,46 @@
+:root {
+    --button-box-shadow: inset -1px -1px #777,
+    inset -2px -2px #aaa,
+    inset 1px 1px #ddd,
+    inset 2px 2px #fff;
+    --button-default: 0 0 0 1px #aaa,
+    0 0 0 2px #ddd,
+    0 0 0 3px #000;
+}
+
+button {
+    font-size: 12px;
+    font-family: 'Charcoal';
+    height: 20px;
+    background: #dedede;
+    /*margin-bottom: 7px;
+    margin-left: 14px;*/
+    border-radius: 3px;
+    border: 1px solid #000;
+    box-shadow: var(--button-box-shadow);
+    min-width: 58px;
+}
+
+button.default {
+    box-shadow: var(--button-box-shadow), var(--button-default);
+}
+
+button:active {
+    color: #fff;
+    background: #666;
+}
+
+button:not(.default):active {
+    box-shadow: inset -1px -1px #888,
+    inset -2px -2px #777,
+    inset 1px 1px #444,
+    inset 2px 2px #555;
+}
+
+button.default:active {
+    box-shadow: var(--button-default),
+    inset -1px -1px #888,
+    inset -2px -2px #777,
+    inset 1px 1px #444,
+    inset 2px 2px #555;
+}

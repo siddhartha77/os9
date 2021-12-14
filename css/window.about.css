@@ -1,0 +1,81 @@
+.window.about .contents {
+    height: 252px;
+    background-color: #ddd;
+    border: 1px solid #000;
+    font-family: 'Arial';
+    font-size: 10.5px;
+    letter-spacing: 0.4px;
+}
+
+.window.about .about-body {
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #b3b3b3;
+    padding-bottom: 4px;
+}
+
+.window.about .about-logo {
+    margin: 5px;
+    width: 454px;
+    height: 90px;
+    background-color: #fff;
+    background-image: url("../img/ui/about-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000;
+    box-shadow: -1px -1px #888, 1px 1px #fff;
+}
+
+.window.about .about-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7px 0 8px;
+    line-height: 1.5em;
+}
+
+.window.about .about-text strong {
+    margin-right: 10px;
+}
+
+.window.about .about-greets {
+    max-height: 82px;
+    overflow: scroll;
+    background-color: #eee;
+    border-top: 1px solid #000;
+}
+
+.window.about .about-greets ul {
+    text-align: center;
+}
+
+.window.about .about-greets .jspHorizontalBar {
+    display: none !important;
+}
+
+.window.about .about-greets .jspTrack.disabled {
+    height: 67px !important;
+}
+
+.window.about .about-greets .jspCapBottom {
+    display: block !important;
+    background-color: #dadada;
+    height: 15px;
+    width: 14px;
+    border-top: 1px solid #000;
+}
+
+.window.about .about-greets ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    line-height: 18px;
+}
+
+.window.about .about-greets li {
+    padding-left: 15px;
+    border-bottom: 1px solid #fff !important;
+}
+
+.window.about.blur .contents:not(:focus-within) {
+    opacity: 50%;
+}

@@ -1,0 +1,79 @@
+.window-wrapper[data-type="download"] {
+    position: absolute;
+    top: 80px;
+    left: 25%;
+}
+
+.window.download .contents {
+    height: 86px;
+    background-color: #ddd;
+    border: 1px solid #000;
+    font-family: 'Arial';
+    font-size: 10.5px;
+    letter-spacing: 0.4px;
+}
+
+.window.download .download-body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.window.download .download-items-remaining {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'Charcoal';
+}
+
+.window.download .download-progress {
+    display: flex;
+    margin: 10px 0 0 0
+}
+
+.window.download .progress {
+    margin-top: 4px;
+}
+
+.window.download .download-time-remaining {
+    display: flex;
+}
+
+.window.download .progress {
+    width: 184px;
+    margin-bottom: 10px;
+}
+
+.window.download.blur * {
+    color: #6a6a6a;
+}
+
+.window.download.blur .progress .left, .window.download.blur .progress .right, .window.download.blur .progress .middle {
+    background-image: none;
+    background-color: #9c99ff;
+}
+
+.window.download.expanded .contents {
+    height: 174px;
+}
+
+.window.download.expanded .expanded-content {
+    display: block;
+}
+
+.window.download .expanded-content {
+    display: none;
+    margin-top: 5px;
+}
+
+.window.download tr td {
+    padding: 6px 0 0 6px;
+}
+
+.window.download tr td:first-of-type {
+    text-align: right;
+}
+
+.window.download button {
+    margin-left: 14px;
+}

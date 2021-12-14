@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Macintosh HD",
+    "icon": "drive",
+    "kind": "disk",
+    "format": "Mac OS Standard",
+    "capacity": "3.99 GB",
+    "available": "3.14 GB",
+    "used": "852.6 MB on disk (850,654,567 bytes), for 557 items",
+    "where": "Macintosh HD, internal drive",
+    "action": "alert::access-denied"
+  },
+  {
+    "name": "Example Folder",
+    "kind": "folder",
+    "size": 100,
+    "contents": [
+      {
+        "name": "Example Text.txt",
+        "kind": "document",
+        "size": 201,
+        "url": "files/example.txt"
+      },
+      {
+        "name": "hamster.gif",
+        "kind": "picture",
+        "size": 5242,
+        "url": "files/hamster.gif"
+      },
+      {
+        "name": "baby.mp4",
+        "kind": "movie",
+        "size": 1337,
+        "url": "files/baby.mp4"
+      },
+      {
+        "name": "download.sit",
+        "kind": "download",
+        "icon": "stuffit-archive",
+        "size": 100,
+        "url": "files/download.sit"
+      }
+    ]
+  },
+  {
+    "name": "Example HTML",
+    "kind": "document",
+    "size": 120396,
+    "url": "simpletext.example.html",
+    "position": "left-01"
+  },
+  {
+    "id": "simpletext",
+    "name": "SimpleText",
+    "kind": "application",
+    "icon": "apps/simpletext",
+    "alias": true,
+    "created": "Fri, May 30, 1997, 12:00",
+    "modified": "Fri, May 30, 1997, 12:00",
+    "size": 120396,
+    "version": "1.4, Copyright Apple Computer, Inc. 1985-1997",
+    "position": "left-02"
+  },
+  {
+    "id": "pictureviewer",
+    "name": "PictureViewer",
+    "kind": "application",
+    "icon": "apps/pictureviewer",
+    "alias": true,
+    "created": "Fri, May 30, 1997, 12:00",
+    "modified": "Fri, May 30, 1997, 12:00",
+    "size": 120396,
+    "version": "1.4, Copyright Apple Computer, Inc. 1985-1997",
+    "position": "left-02"
+  },
+  {
+    "name": "StuffIt Expander&trade;",
+    "kind": "application",
+    "icon": "apps/stuffit-expander",
+    "alias": true,
+    "created": "Tue, Nov 9, 1999, 0:00",
+    "modified": "Tue, Nov 9, 1999, 0:00",
+    "size": 1259522,
+    "version": "5.5, Copyright &copy; 1990-99 Aladdin Systems, Inc.",
+    "position": "left-03",
+    "action": "alert::bad-alias::StuffIt Expander&trade;"
+  },
+  {
+    "id": "trash",
+    "name": "Trash",
+    "icon": "trash",
+    "kind": "trash",
+    "infoContents": "The Trash is empty.",
+    "modified": "Fri, May 30, 1997, 12:00"
+  }
+]

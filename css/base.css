@@ -1,0 +1,76 @@
+@import "menubar.min.css";
+@import "desktop.min.css";
+@import "icon.min.css";
+@import "alert.min.css";
+@import "startup.min.css";
+@import "window.min.css";
+@import "window.about.min.css";
+@import "window.info.min.css";
+@import "window.download.min.css";
+@import "window.pictureviewer.min.css";
+@import "window.simpletext.min.css";
+@import "progressbar.min.css";
+@import "button.min.css";
+
+@font-face {
+    font-family: 'Charcoal';
+    src: url('../font/Charcoal.ttf') format('truetype');
+}
+
+* {
+    cursor: url('../cur/arrow.cur'), auto;
+}
+
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block;}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-se { width: 20px; height: 20px; right: 0; bottom: 0; }
+
+html, body {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    font-size: 12px;
+    font-weight: normal;
+    height: 100%;
+    margin: 0;
+    image-rendering: pixelated;
+    background-color: #000;
+}
+
+a {
+    color: #000;
+}
+
+:focus {
+    outline: none;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
+
+.app {
+    height: 100%;
+}
+
+.flex-rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-cols {
+    display: flex;
+    flex-direction: column;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.ui-effects-transfer {
+    z-index: 997;
+    border: 1px dotted black;
+}
+
+.sleep {
+    background: #000;
+}

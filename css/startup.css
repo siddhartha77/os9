@@ -1,0 +1,52 @@
+.startup {
+    background-image: url("../img/ui/patterns/mac.png");
+    background-repeat: repeat;
+    background-position: 0 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+}
+
+.startup-dialog {
+    width: 420px;
+    height: 321px;
+    background-color: #dedede;
+    border: 1px solid #000;
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #acacac;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.startup-dialog .startup-logo {
+    width: 347px;
+    height: 220px;
+    position: absolute;
+    top: 26px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 1px solid #000;
+    box-shadow: -1px -1px #acacac, 1px 1px #fff;
+    background-color: #fff;
+    background-image: url("../img/ui/startup-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.startup-dialog .startup-text {
+    font-family: 'Charcoal';
+    position: absolute;
+    top: 269px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.startup-dialog .progress {
+    position: absolute;
+    top: 290px;
+    width: 158px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
