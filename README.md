@@ -4,7 +4,7 @@ A retro website framework in the theme of Mac OS 9.
 # External Libraries
 - [jQuery](https://jquery.com/)
 - [jQueryUI](https://jqueryui.com/)
-- [jQuery UI Touch Punch](https://github.com/furf/jquery-ui-touch-punch)
+- [jQueryUI Touch Punch](https://github.com/furf/jquery-ui-touch-punch)
 - [jQuery Ajax Progress](https://github.com/englercj/jquery-ajax-progress)
 - [jScrollPane](http://jscrollpane.kelvinluck.com/)
 
