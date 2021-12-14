@@ -1,0 +1,124 @@
+<div class="corner">
+    <img src="img/ui/widgets/menubar-corner-left.png"/>
+</div>
+<div id="menuApple" class="menu">
+    <div class="title icon" data-icon="apple">&nbsp;</div>
+    <div class="menu-items">
+        <div data-action="openWindow::about::about">About This Website</div>
+        <div class="separator"></div>
+        <div class="icon" data-icon="apps/simpletext" data-action="openFigureID::simpletext">SimpleText</div>
+        <div class="icon" data-icon="apps/pictureviewer" data-action="openFigureID::pictureviewer">PictureViewer</div>
+    </div>
+</div>
+<div id="menuFile" class="menu">
+    <div class="title">File</div>
+    <div class="menu-items">
+        <div class="disabled" data-shortcut="N">New Folder</div>
+        <div class="disabled" data-requires="focusedFigure" data-action="openFocusedFigure" data-shortcut="O">Open</div>
+        <div class="disabled" data-shortcut="P">Print</div>
+        <div class="disabled" data-shortcut="&#9003;">Move To Trash</div>
+        <div class="disabled" data-requires="focusedWindow" data-action="closeFocusedWindow" data-shortcut="W">Close
+            Window
+        </div>
+        <div class="separator"></div>
+        <div id="menuFileGetInfo" class="submenu disabled" data-requires="focusedFigure"
+             data-action="getInfoOnFocusedFigure">
+            <div class="title">Get Info</div>
+            <div class="menu-items">
+                <div class="disabled" data-requires="focusedFigure" data-action="getInfoOnFocusedFigure"
+                     data-shortcut="I">General Information
+                </div>
+                <div class="disabled">Sharing...</div>
+                <div class="disabled">Memory</div>
+            </div>
+        </div>
+        <div id="menuFileLabel" class="submenu disabled">
+            <div class="title" data-action="none">Label</div>
+        </div>
+        <div class="disabled" data-shortcut="D">Duplicate</div>
+        <div class="disabled" data-shortcut="M">Make Alias</div>
+        <div class="disabled">Add To Favorites</div>
+        <div class="disabled" data-shortcut="Y">Put Away</div>
+        <div class="disabled">Encrypt</div>
+        <div class="separator"></div>
+        <div class="disabled" data-shortcut="F">Find...</div>
+        <div class="disabled" data-shortcut="H">Search Internet...</div>
+        <div class="disabled" data-shortcut="R">Show Original</div>
+        <div class="separator"></div>
+        <div class="disabled">Page Setup...</div>
+        <div class="disabled">Print Desktop...</div>
+    </div>
+</div>
+<div id="menuEdit" class="menu">
+    <div class="title">Edit</div>
+    <div class="menu-items">
+        <div class="disabled" data-shortcut="Z">Undo</div>
+        <div class="separator"></div>
+        <div class="disabled" data-shortcut="X">Cut</div>
+        <div class="disabled" data-shortcut="C">Copy</div>
+        <div class="disabled" data-shortcut="V">Paste</div>
+        <div class="disabled">Clear</div>
+        <div class="disabled" data-shortcut="A">Select All</div>
+        <div class="disabled">Show Clipboard</div>
+        <div class="separator"></div>
+        <div class="disabled">Preferences...</div>
+    </div>
+</div>
+<div id="menuView" class="menu">
+    <div class="title">View</div>
+    <div class="menu-items">
+        <div class="disabled">as Icons</div>
+        <div class="disabled">as Buttons</div>
+        <div class="disabled">as List</div>
+        <div class="separator"></div>
+        <div class="disabled">as Window</div>
+        <div class="disabled">as Pop-up Window</div>
+        <div class="separator"></div>
+        <div class="disabled">Clean Up</div>
+        <div class="disabled">Arrange</div>
+        <div class="disabled">Reset Column Positions</div>
+        <div class="separator"></div>
+        <div class="disabled">View Options...</div>
+    </div>
+</div>
+<div id="menuWindow" class="menu">
+    <div class="title">Window</div>
+    <div class="menu-items">
+        <div data-checked="true">Desktop</div>
+    </div>
+</div>
+<div id="menuSpecial" class="menu">
+    <div class="title">Special</div>
+    <div class="menu-items">
+        <div class="disabled">Empty Trash...</div>
+        <div class="separator"></div>
+        <div class="disabled" data-shortcut="E">Eject</div>
+        <div class="disabled">Erase Disk...</div>
+        <div class="separator"></div>
+        <div data-action="sleep">Sleep</div>
+        <div data-action="restart">Restart</div>
+        <div data-action="alert::shutdown">Shutdown</div>
+    </div>
+</div>
+<div id="menuHelp" class="menu">
+    <div class="title">Help</div>
+    <div class="menu-items">
+        <div data-action="openFigureID::readme">Help Center</div>
+        <div class="separator"></div>
+        <div class="disabled">Show Balloons</div>
+        <div class="separator"></div>
+        <div class="disabled">Mac Tutorials</div>
+        <div class="disabled" data-shortcut="?">Mac Help</div>
+    </div>
+</div>
+<div class="spacer"></div>
+<div class="clock"></div>
+<div class="menubar-separator">
+    <img src="img/ui/widgets/menubar-separator.png"/>
+</div>
+<div class="active-application">
+    <img src="img/ui/icons-small/apps/finder.png"/><span>Finder</span>
+</div>
+<div class="corner">
+    <img src="img/ui/widgets/menubar-corner-right.png"/>
+</div>
